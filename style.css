@@ -1,0 +1,36 @@
+body{background-color: rgb(0, 0, 0);}
+
+.titulo {
+    color: rgb(217, 245, 0);
+}
+
+.opcionesDeVentas {
+    color: whitesmoke;
+    margin:100px
+}
+
+.datos{
+    color: whitesmoke;
+    margin: 100px;
+
+}
+
+.tablaMomentanea{
+    color: whitesmoke;
+}
+
+.barranav{
+    top: 0;
+    position:sticky;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    padding-left: 600px;
+}
+
+.instagram{
+    position: absolute;
+    margin-left: 1410px;
+    margin-top: 60px;
+    width: 75px;
+    height: 70px;
+}
