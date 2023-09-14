@@ -1,5 +1,13 @@
 body{background-color: rgb(0, 0, 0);}
 
+.barranav{
+    top: 0;
+    position:sticky;
+    background-color: rgb(0, 0, 0);
+    padding: 2vw;
+    padding-left: 37vw;
+}
+
 .titulo {
     color: rgb(217, 245, 0);
 }
@@ -9,28 +17,31 @@ body{background-color: rgb(0, 0, 0);}
     margin:100px
 }
 
-.datos{
-    color: whitesmoke;
-    margin: 100px;
 
+.doblebicep{
+    margin-left: 30vw;
 }
 
-.tablaMomentanea{
-    color: whitesmoke;
+/* ------------pruebas-------------- */
+#div1{
+    display: inline-flex;
 }
-
-.barranav{
-    top: 0;
-    position:sticky;
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    padding-left: 600px;
+#texto1{
+    color: white;
+    font-size: 4vw;
 }
+#div_texto1{
+    margin: 50px;
+    border: 1px solid white;
+}
+/* --------------------------------- */
 
+/* --------------footer------------- */
 .instagram{
     position: absolute;
-    margin-left: 1410px;
-    margin-top: 60px;
-    width: 75px;
-    height: 70px;
+    margin-left: 93vw;
+    margin-top: 0vw;
+    width: 5vw;
+    height: 5vw;
 }
+/* --------------------------------- */
