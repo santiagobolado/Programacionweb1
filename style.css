@@ -149,3 +149,33 @@ body{
     height: 2.5vw;
 }
 /* --------------------------------- */
+@media screen and (max-width: 600px) {
+    
+    .antropometria{
+        width: 30vw;
+        margin-left: 10vw;
+        border-radius: 1vw;
+
+    }
+    
+    .planes{
+        width: 30vw;
+        margin-left: 10vw;
+        border-radius: 1vw;
+    }
+    
+    .card-group{
+       margin-left: 25vw;
+        
+    }
+
+    .card-title-avena{
+        font-size: 8vw;
+        margin-left: 50vw;
+    }
+    
+    .card-text-avena{
+        margin-left: 50vw;
+    
+    }
+}
