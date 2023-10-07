@@ -101,6 +101,7 @@ body{
 .card-text-avena{
     color: white;
     margin-left: 50vw;
+    font-size: 1rem;
 
 }
 /*-----------------------------------*/
@@ -171,11 +172,12 @@ body{
 
     .card-title-avena{
         font-size: 8vw;
-        margin-left: 50vw;
+        margin: 1vw;
     }
     
     .card-text-avena{
-        margin-left: 50vw;
-    
+
+        font-size: 0.8rem;
+        margin: 1vw;
     }
 }
