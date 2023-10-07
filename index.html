@@ -4,41 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lautaro Ambrosini</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="barranav">
-      <h1 class="titulo">LAUTARO AMBROSINI</h1>
-    </header>
-    <main>
-      <hr>
-      <div id="div1">
-        <img src="./img/Antropo1.jpeg" width="50%" alt="lautips">
-        <div id="div_texto1">
-          <p id="texto1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem temporibus dolorem nemo necessitatibus voluptate ratione non, debitis pariatur rem repellat sapiente? Praesentium magnam eos, dolorum quis ex quaerat non a!</p>
+      <!-- <h1 class="titulo">LAUTARO AMBROSINI</h1> -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lautaro Ambrosini</a> 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#planes">Planes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#antropometria">Antropometrias</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link active" href="#">Combos</a>
+              </li> -->
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link active" href="#sobremi">Sobre mi</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </header>
 
+    <main>
+      
+      <div class="card text-bg-dark">
+        <img src="img/Sentadilla.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">LAUTARO AMBROSINI</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+
+      <div class="card-group" >
+        <div class="antropometria" id="antropometria">
+          <img src="img/Antropo1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Antropometrias</h5>
+            <p class="card-text">Queres saber en que situación estás? bla bla bla</p>
+            <button id="boton" type="button" class="btn btn-danger">Comprar</button>
+            <br>
+            <br>
+          </div>
+        </div>
+        <div class="planes" id="planes">
+          <img src="img/Doble bicep.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Planes personalizados</h5>
+            <p class="card-text">Queres empezar a entrenar? bla bla bla</p>
+            <button id="boton" type="button" class="btn btn-danger">Comprar</button>
+            <br>
+            <br>
+          </div>
+        </div>
+        <!-- <div class="card">
+          <img src="img/avena.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Combos</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <button type="button" class="btn btn-danger">Comprar</button>
+          </div> -->
+        </div>
+      </div>
+
+      <br>
+      <!-- mala practica usar br -->
+
+      <div id="sobremi" class="card text-bg-dark">
+        <img src="/img/avena.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title-avena">Sobre mi</h5>
+          <p class="card-text-avena">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur praesentium vero, rerum accusantium itaque assumenda voluptatibus, omnis dolores iure unde cumque sint a! Architecto, voluptates repellat? Laboriosam eveniet temporibus animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores consectetur labore autem facilis harum laudantium fuga, illum quasi modi sunt neque incidunt ex quod, nisi eveniet reiciendis? Exercitationem, maiores?</p>
+          <p class="card-text-avena"><small>Last updated 3 mins ago</small></p>
+        </div>
       </div>
       
-      <hr>
-      <ol class="opcionesDeVentas" start="1" type="3">
-        <li>Planes</li>
-        <li>Antropometria</li>
-        <li>Alimentos proteicos</li>
-      </ol>
-      <hr>
-
-      <div class="doblebicep">
-        <img src="./img/Doble bicep.jpeg" width="50%" alt="lautips">
-      </div>    
     </main>
-    <hr>
+
     <footer>
+      <div class="redes-sociales">
+        <a href='https://www.instagram.com/lautiambrosini_/?igshid=MzRlODBiNWFlZA%3D%3D' target='_blank'>
+          <img class="instagram" src='img/insta_blanco-removebg-preview.png' alt='1-13319-instagram-round-corner-png-icon-instagram-instagram-icono'/></a>
+        <a href="https://www.tiktok.com/@lautiambrosini">
+          <img class="tiktok" src="img/tiktok_blanco-removebg-preview.png" alt=""></a>
+        <a href="...">
+          <img class="whatsaap" src="img/whats_blanco-removebg-preview.png" alt=""></a>
 
-      <a href='https://www.instagram.com/lautiambrosini_/?igshid=MzRlODBiNWFlZA%3D%3D' target='_blank'><img class="instagram" src='https://i.postimg.cc/LYPwYfMY/1-13319-instagram-round-corner-png-icon-instagram-instagram-icono.png' alt='1-13319-instagram-round-corner-png-icon-instagram-instagram-icono'/></a>
-      
+      </div>
     </footer>
-
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 
   </body>
 </html>
