@@ -1,6 +1,8 @@
+/*---barra de navegacion---*/
+
 body{
     background-color: rgb(0, 0, 0);
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .barranav{
@@ -30,28 +32,37 @@ body{
     color: lightskyblue;
 }
 
-/* Cambia el color del enlace activo
-.nav-item.active .nav-link {
-    color: lightblue;
-} */
+/*---------------*/
 
+/* primera parte */
 
-
-.titulo {
-    color: rgb(217, 245, 0);
+#primera-parte{
+    max-width: 100%;
+    height: auto;
 }
 
+.card-img{  /*esto sirve para la primera foto*/
+    width: 48vw;
+    height: 40vw;
+    margin-left: 0.25vw;
+    font-size: 2vw;
+    /* border-radius: 1vw; */
+    filter: brightness(0.5);
+}
 
-/* tercera parte*/
+/*----------------/*
+/* segunda parte*/
 .card-group{
-    background-color: rgb(179, 178, 178);
+    background-color: rgb(200, 200, 200);
+    padding: 3vw;
     
 }
 
 .card-img-top{
     border-radius: 1vw;
 }
-.antropometria{
+
+#antropometria{
     width: 30vw;
     background-color: white;
     margin-left: 15vw;
@@ -79,60 +90,72 @@ body{
 #boton{
     margin: 1vw;
 }
-/* -----------------------------------------*/
-/* ------------pruebas horizontal-----------*/
 
-.card-img{
-    width: 98vw;
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* -----------------------------------------*/
+/* ------------tercera parte-----------*/
+
+
+
+#sobremi{
+    background-color: white;
+    width: 98.65vw;
     height: 40vw;
     margin-left: 0.25vw;
     font-size: 2vw;
-    border-radius: 3vw;
-    filter: brightness(0.5);
-    background-color: whitesmoke;
 }
 
-.card-title-avena{
-    color:white;
-    font-size: 8vw;
-    margin-left: 50vw;
+.aboutme{
+    padding-top: 9vw;
+} 
+
+.imagen-sobremi{
+    margin-left: 5vw;
+    width: 40vw;
+    height: 25vw;
+    margin-top: -22vw;
 }
 
-.card-text-avena{
-    color: white;
+.titulo-sobremi{
+    color: lightskyblue;
+    font-size: 2vw;
     margin-left: 50vw;
-    font-size: 1rem;
+    letter-spacing: -0.10vw;
+}
 
+.titulo-nombre{
+    color:black;
+    font-size: 4vw;
+    margin-left: 50vw;
+    letter-spacing: -0.5vw;
+}
+
+.texto-sobremi{
+    color: black;
+    margin-left: 50vw;
+    font-size: 1.60vw;
 }
 /*-----------------------------------*/
-/* ------------pruebas-------------- */
-#div1{
-    display: inline-flex;
-    margin-left: 20vw;
-}
-#texto1{
-    color: white;
-    font-size: 4vw;
-}
-#div_texto1{
-    margin: 50px;
-    border: 1px solid white;
-}
-/* --------------------------------- */
-
 /* --------------footer------------- */
+
+.redes-sociales{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    
+}
 
 .instagram{
     position: absolute;
-    margin-left: 93vw;
+    margin-left: 91vw;
     margin-top: 0vw;
     width: 2.5vw;
     height: 2.5vw;
 }
-
-/* .instagram:hover{
-    filter: grayscale(100%);
-} */
 
 .tiktok{
     position: absolute;
@@ -144,10 +167,14 @@ body{
 
 .whatsaap{
     position: absolute;
-    margin-left: 81vw;
+    margin-left: 83vw;
     margin-top: 0vw;
     width: 2.5vw;
     height: 2.5vw;
+}
+
+#texto_footer{
+    color: whitesmoke;
 }
 /* --------------------------------- */
 @media screen and (max-width: 600px) {
@@ -170,7 +197,7 @@ body{
         
     }
 
-    .card-title-avena{
+    /* .card-title-avena{
         font-size: 8vw;
         margin: 1vw;
     }
@@ -179,5 +206,6 @@ body{
 
         font-size: 0.8rem;
         margin: 1vw;
-    }
+    } */
 }
+
