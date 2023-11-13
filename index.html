@@ -39,41 +39,81 @@
     </header>
     
     <main>
-      <div id="primera-parte" class="card text-bg-dark">
-        <img src="img/Sentadilla.jpeg" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title">LAUTARO AMBROSINI</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-content">
+                    <img id="foto1" src="img/avena.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="texto_foto">COMO EMPIEZO?</h1>
+                    </div>
+                    <div class="texto_foto1">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat autem quae amet nostrum eos sed? Libero nulla cumque qui at est, maxime odio eligendi voluptas doloremque aliquid cum quis!</p>
+                    </div> 
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="img/entreno.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="texto_foto1">CREA TU PLAN DE ENTRENAMIENTO PERSONALIZADO</h1>
+                    </div>    
+                    <div class="texto_foto2">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat autem quae amet nostrum eos sed? Libero nulla cumque qui at est, maxime odio eligendi voluptas doloremque aliquid cum quis!</p>
+                    </div> 
+
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="img/antroyo.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="texto_foto2">Para saber en donde estas parado podes hacerte una ANTROPOMETRIA</h1>
+                    </div>
+                    <div class="texto_foto3">
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea placeat autem quae amet nostrum eos sed? Libero nulla cumque qui at est, maxime odio eligendi voluptas doloremque aliquid cum quis!</p>
+                    </div> 
+                </div>
+            </div>
         </div>
-      </div>
-  
-  
-      <div class="card-group" >
-        <div id="antropometria">
-          <img src="img/Antropo1.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Antropometrias</h5>
-            <p class="card-text">Queres saber en que situación estás? bla bla bla</p>
-            <button href="./antropometria.html" id="boton" type="button" class="btn btn-danger"><a href="./antropometria.html">Comprar</a></button>
-            <br>
-            <br>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
         
-        <div class="planes" id="planes">
-          <img src="img/Doble bicep.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Planes Personalizados</h5>
-            <p class="card-text">Queres empezar a entrenar? bla bla bla</p>
-            <button href="./planes.html" id="boton" type="button" class="btn btn-danger">Comprar</button>
-            <br>
-            <br>
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div id="antropometria" class="card">
+              <img src="img/Antropo1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ANTROPOMETRIA</h5>
+                <p class="card-text">With</p>
+                <a href="./antropometria.html" id="boton" class="btn btn-primary">Saber más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div id="planes" class="card">
+              <img src="img/Doble bicep.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">PLANES</h5>
+                <p class="card-text">With</p>
+                <a href="./planes.html" id="boton" class="btn btn-primary">Saber más</a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>  
-      
-      <!-- mala practica usar br -->
+
   
       <div id="sobremi" style="background-color: white;">
 

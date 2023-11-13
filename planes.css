@@ -1,0 +1,138 @@
+/*---barra de navegacion---*/
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barranav{
+    top: 0;
+    position:sticky;
+    background-color: rgb(0, 0, 0);
+    padding: 2vw;
+    z-index: 30;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: black!important;
+}
+
+.navbar-brand {
+    color: lightskyblue;
+    font-size: 1.7vw;
+    margin-top: -0.2vw;
+}   
+
+/* Cambia el color del texto de los elementos de la navbar al hacer hover */
+.nav-item:hover .nav-link {
+    color: lightskyblue;
+}
+
+/* Cambia el color del texto de los elementos de la navbar cuando no están activos */
+.nav-item .nav-link {
+    color: lightskyblue;
+}
+/*-----------------------------------*/
+/*-----------main--------------------*/
+
+#comprar_plan{
+    margin-top: -25vw;
+    /* margin-bottom: -2vw; */
+    max-width: 40vw;
+    height: auto;
+    }   
+    
+#texto_plan_venta{
+    color: white;
+    margin-left: 45vw;
+    font-size: 4vw;
+}
+
+#explicacion_plan{
+    color: white;
+    margin-left: 45vw;
+    font-size: 1.90vw;
+}
+
+.card1{
+    margin-left: 45vw;
+    margin-top: -29vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    font-size: 2.5vw;    
+    height: 12vw;
+    width: 47vw;
+}
+
+.centrado {
+    text-align: center;
+}
+
+#boton-carrito1{
+    width: 47vw;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+
+.card2{
+    margin-left: 45vw;
+    margin-top: 3.5vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    font-size: 2.5vw;    
+    height: 13vw;
+    width: 47vw;
+}
+
+#boton-carrito2{
+    width: 47vw;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+
+/*-----------------------------------*/
+/* --------------footer------------- */
+
+.redes-sociales{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    
+}
+
+.instagram{
+    position: absolute;
+    margin-left: 91vw;
+    margin-top: 0vw;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.tiktok{
+    position: absolute;
+    margin-left: 87vw;
+    margin-top: 0vw;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.whatsaap{
+    position: absolute;
+    margin-left: 83vw;
+    margin-top: 0vw;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+#texto_footer{
+    margin-top: 0.5vw;
+    color: whitesmoke;
+}
