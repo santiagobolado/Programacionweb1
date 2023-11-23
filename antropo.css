@@ -72,7 +72,7 @@ height: auto;
 }
 
 #boton-carrito1{
-    width: 22vw;
+    width: 25vw;
     color: black;
     font-size: 1.3vw;
     font-weight: bold;
@@ -86,7 +86,7 @@ height: auto;
 
 
 .card2{
-    margin-left: 45vw;
+    margin-left: 43vw;
     margin-top: -17vw;
     background-color: white;
     border-radius: 0.5vw;
@@ -95,7 +95,7 @@ height: auto;
 }
 
 #boton-carrito2{
-    width: 51vw;
+    width: 55vw;
     color: black;
     font-size: 1.3vw;
     font-weight: bold;

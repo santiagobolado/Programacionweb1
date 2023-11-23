@@ -34,7 +34,69 @@ body{
     color: lightskyblue;
 }
 
+#verCarrito{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    margin-top: -1vw;
+    margin-left: 45vw;
+}
+
 /*---------------*/
+
+/* carrito */
+#carrozza{
+    margin-left: 80% !important;
+    font-size: 1.7vw;
+}
+
+
+.offcanvas-title {
+    font-family:'Times New Roman', Times, serif;
+    color: white;}
+
+#tituloCarrito{
+    color: rgb(187, 184, 184);
+    font-family:'Times New Roman', Times, serif;
+}
+#MuestraProductos{
+    color: rgb(154, 150, 150);
+    font-family:'Times New Roman', Times, serif;
+}
+#suma_precio{
+    font-size: 1.7vw;
+    color: white;
+    background-color:rgb(33, 31, 31);
+    font-family:'Times New Roman', Times, serif;
+
+}
+.finalizar_compra{
+    background-color: rgb(28, 27, 27);
+    color: white;
+    border-style: solid;
+    font-size: 1.7vw;
+    font-family: 'Poppins';
+    
+}
+.finalizar_compra:hover{
+    background-color: white;
+    color:  rgb(28, 27, 27);
+    transition: 1s;
+}
+#vaciar{
+    font-size: 1.7vw;
+    background-color: rgb(28, 27, 27);
+    color: white;
+    border-radius: 0vw;
+    border-color: grey;
+    font-family: 'Poppins';}
+#vaciar:hover{
+    background-color: white;
+    color:  rgb(28, 27, 27);
+    transition: 1s;
+}
+/*----------------*/
+
 /*pruebas carrusel*/
 
 #carouselExample{
