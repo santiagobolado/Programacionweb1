@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
 
   <body>
@@ -33,48 +34,8 @@
                 <a class="nav-link active" href="#sobremi">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">
-                <img id="verCarrito" src="/img/carritoC.jpg" alt="CARRITO"></a>
-
-                    <!-- carrito -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
-              id="carrozza">
-                <span class="fa-solid fa-cart-shopping" id="carro_de_compras"></span>
-              </button>    
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Carrito</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
-                </div>
-
-                <div class="offcanvas-body">
-
-                  
-                  <div class="pablo-carrozza" >
-                    <h2 id= "tituloCarrito">Aún no has seleccionado ningún producto</h2>
-                    <ul id="MuestraProductos">
-                      <li></li>
-                    </ul>
-                    <div class="d-grid gap-2 col-9 mx-auto" >
-                        <button class="btnnbtn-primary" type="button" disabled>
-                            <div id="suma_precio">Total: $0</div>
-                            <button id="vaciar" type="button" class="btn btn-primary " onclick="Eliminar_seleccion()">Vaciar Carrito</button>
-
-                            <button  type="submit" class="finalizar_compra">Finalizar Compra</button>
-
-                            
-                        </button>   
-                    </div>  
-                    
-                </div>
-                </div>
-              </div>
-          
-            
-          
-            <!-- TERMINA EL CARRITO -->  
-
-            </li>     
+                <a class="nav-link active" href="/ventas.html">Comprar</a>
+              </li>        
             </ul>
           </div>
         </div>
@@ -191,5 +152,6 @@
     <link rel="stylesheet" href="style.css">
 
     <script> scr="/script.js"</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

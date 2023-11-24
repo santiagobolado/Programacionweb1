@@ -1,0 +1,172 @@
+/*---barra de navegacion---*/
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barranav{
+    top: 0;
+    position:sticky;
+    background-color: rgb(0, 0, 0);
+    padding: 2vw;
+    z-index: 30;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: black!important;
+}
+
+.navbar-brand {
+    color: lightskyblue;
+    font-size: 1.7vw;
+    margin-top: -0.2vw;
+}   
+
+/* Cambia el color del texto de los elementos de la navbar al hacer hover */
+.nav-item:hover .nav-link {
+    color: lightskyblue;
+}
+
+/* Cambia el color del texto de los elementos de la navbar cuando no están activos */
+.nav-item .nav-link {
+    color: lightskyblue;
+}
+/*-----------------------------------*/
+
+.card {
+    background-color: grey;
+    width: 30vw;
+    margin-left: 8vw;
+    margin-bottom: 1vw; /* Puedes ajustar el valor según tus preferencias */
+}
+
+
+/* .card-img-top{
+    width: 30vw;
+} */
+
+.card-title{
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.card-text{
+    color: transparent;
+}
+
+#boton{
+    /*margin-left: 10.5vw;*/
+    width: 28vw;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+
+
+
+#carrito {
+    background-color: grey ;
+    border-radius: 2vw;
+    padding: 2vw;
+    margin-top: 2vw;
+  }
+  
+  #carrito h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1vw;
+  }
+  
+  #carrito ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #carrito li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+  }
+  
+  #carrito .producto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5vw;
+  }
+  
+  #carrito .precio {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5vw;
+  }
+  
+  #carrito .eliminar {
+    background-color: lightgrey;
+    color: #fff;
+    border: none;
+    padding: 0.5vw 1vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+    border-radius: 0.5vw;
+    cursor: pointer;
+  }
+  
+  #carrito .eliminar:hover {
+    background-color: lightgray;
+  }
+  
+  
+  .carrito h2 {
+    margin-bottom: 1vw;
+  }
+
+
+
+/*-----------------------------------*/
+/* --------------footer------------- */
+
+.redes-sociales{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    
+}
+
+.instagram{
+    position: absolute;
+    margin-left: 91vw;
+    margin-top: 0vw;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.tiktok{
+    position: absolute;
+    margin-left: 87vw;
+    margin-top: 0vw;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.whatsaap{
+    position: absolute;
+    margin-left: 83vw;
+    margin-top: 0vw;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+#texto_footer{
+    margin-top: 0.5vw;
+    color: whitesmoke;
+}

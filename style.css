@@ -34,7 +34,18 @@ body{
     color: lightskyblue;
 }
 
-#verCarrito{
+/* #verCarrito{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    margin-top: -1vw;
+    margin-left: 45vw;
+} */
+
+#botonCarrito{
+    background-color: white;
+    border-color: white;
+
     width: 3vw;
     height: 3vw;
     border-radius: 0.5vw;
