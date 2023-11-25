@@ -175,9 +175,6 @@ body{
 
 }
 
-/* .card-img-top{
-    width: 30vw;
-} */
 
 .card-title{
     color: white;
@@ -284,34 +281,69 @@ body{
 /* --------------------------------- */
 @media screen and (max-width: 600px) {
     
-    .antropometria{
-        width: 30vw;
-        margin-left: 10vw;
-        border-radius: 1vw;
-
+    .card{
+        background-color: grey;
+        width: 75vw;
+        margin-left: 8vw;
+    
     }
     
-    .planes{
-        width: 30vw;
-        margin-left: 10vw;
-        border-radius: 1vw;
+    .card-title{
+        color: white;
+        text-align: center;
+        font-size: 6vw;
+        margin-top: 0vw;
     }
     
-    .card-group{
-       padding: 25vw;
-        
-    }
-
-    /* .card-title-avena{
-        font-size: 8vw;
-        margin: 1vw;
+    .card-text{
+        color: transparent;
     }
     
-    .card-text-avena{
+    #boton{
+        /*margin-left: 10.5vw;*/
+        width: 68vw;
+        color: black;
+        font-size: 4vw;
+        font-weight: bold;
+        background-color: lightskyblue;
+        border-color: lightskyblue;
+    }
 
-        font-size: 0.8rem;
-        margin: 1vw;
-    } */
+    .redes-sociales {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .instagram{
+        position: absolute;
+        margin-left: 91vw;
+        margin-top: 0vw;
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    .tiktok{
+        position: absolute;
+        margin-left: 87vw;
+        margin-top: 0vw;
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    .whatsaap{
+        position: absolute;
+        margin-left: 83vw;
+        margin-top: 0vw;
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
+    #texto_footer {
+        font-size: 2vw;
+        margin-top: 0vw;
+    }
 }
 
 

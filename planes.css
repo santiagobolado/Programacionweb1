@@ -137,3 +137,66 @@ body{
     margin-top: 0.5vw;
     color: whitesmoke;
 }
+
+/* Media query para pantallas pequeñas (móviles) */
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 4vw;
+    }
+
+    #comprar_plan{
+        margin-top: 0vw;
+        /* margin-bottom: -2vw; */
+        max-width: 96.5vw;
+        height: auto;
+        }   
+        
+    #texto_plan_venta{
+        color: white;
+        margin-left: 0vw;
+        font-size: 4vw;
+    }
+    
+    #explicacion_plan{
+        color: white;
+        margin-left: 0vw;
+        font-size: 1.90vw;
+    }
+
+
+    .redes-sociales {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .instagram{
+        position: absolute;
+        margin-left: 91vw;
+        margin-top: 0vw;
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    .tiktok{
+        position: absolute;
+        margin-left: 87vw;
+        margin-top: 0vw;
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    
+    .whatsaap{
+        position: absolute;
+        margin-left: 83vw;
+        margin-top: 0vw;
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
+    #texto_footer {
+        font-size: 2vw;
+        margin-top: 0vw;
+    }
+}
