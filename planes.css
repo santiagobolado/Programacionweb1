@@ -154,13 +154,13 @@ body{
     #texto_plan_venta{
         color: white;
         margin-left: 0vw;
-        font-size: 4vw;
+        font-size: 5vw;
     }
     
     #explicacion_plan{
         color: white;
         margin-left: 0vw;
-        font-size: 1.90vw;
+        font-size: 2.5vw;
     }
 
 
@@ -169,11 +169,12 @@ body{
         padding-bottom: 2vw;
         margin-top: 2vw;
         margin-bottom: 2vw;
+        margin-right: 23vw;
     }
 
     .instagram{
         position: absolute;
-        margin-left: 91vw;
+        margin-left: 86vw;
         margin-top: 0vw;
         width: 2.5vw;
         height: 2.5vw;
@@ -181,7 +182,7 @@ body{
     
     .tiktok{
         position: absolute;
-        margin-left: 87vw;
+        margin-left: 82vw;
         margin-top: 0vw;
         width: 2.5vw;
         height: 2.5vw;
@@ -189,7 +190,7 @@ body{
     
     .whatsaap{
         position: absolute;
-        margin-left: 83vw;
+        margin-left: 77vw;
         margin-top: 0vw;
         width: 2.5vw;
         height: 2.5vw;
@@ -198,5 +199,6 @@ body{
     #texto_footer {
         font-size: 2vw;
         margin-top: 0vw;
+        margin-right: 0vw;
     }
 }

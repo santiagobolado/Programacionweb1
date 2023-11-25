@@ -181,12 +181,12 @@ table{
 
 @media screen and (max-width: 600px) {
     .navbar-brand {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     .card {
         background-color: grey;
-        width: 80vw;
+        width: 82vw;
         margin-left: 8vw;
         margin-bottom: 1vw; /* Puedes ajustar el valor según tus preferencias */
     }

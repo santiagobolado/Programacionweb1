@@ -174,11 +174,12 @@ height: auto;
         padding-bottom: 2vw;
         margin-top: 2vw;
         margin-bottom: 2vw;
+        margin-right: 23vw;
     }
 
     .instagram{
         position: absolute;
-        margin-left: 91vw;
+        margin-left: 86vw;
         margin-top: -10vw;
         width: 2.5vw;
         height: 2.5vw;
@@ -186,7 +187,7 @@ height: auto;
     
     .tiktok{
         position: absolute;
-        margin-left: 87vw;
+        margin-left: 82vw;
         margin-top: -10vw;
         width: 2.5vw;
         height: 2.5vw;
@@ -194,7 +195,7 @@ height: auto;
     
     .whatsaap{
         position: absolute;
-        margin-left: 83vw;
+        margin-left: 77vw;
         margin-top: -10vw;
         width: 2.5vw;
         height: 2.5vw;
@@ -203,5 +204,6 @@ height: auto;
     #texto_footer {
         font-size: 2vw;
         margin-top: -10vw;
+        margin-right: 0vw;
     }
 }
